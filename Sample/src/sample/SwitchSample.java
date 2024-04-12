@@ -3,7 +3,7 @@ package sample;
 public class SwitchSample {
 
     public static void main(String[] args) {
-        var score = 72; // 成績
+        int score = 72; // 成績
 
         switch (score / 10) {
             case 10 -> System.out.println("満点です！");
